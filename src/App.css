@@ -1,0 +1,14 @@
+.ant-menu{
+  /* font-size: 15px;
+  font-weight: 600; */
+}
+.ant-layout-header{
+  border-bottom: 1px solid #e8e8e8;
+}
+.ant-menu-horizontal{
+  border-bottom: none;
+}
+.logo img{
+  width: 65px;
+  font-size: 2rem;
+}
