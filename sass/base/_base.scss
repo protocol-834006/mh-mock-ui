@@ -1,0 +1,78 @@
+@import "variables.scss";
+html {
+  margin: 0;
+  font-size: 100%;
+  background: #fff;
+  font-family: $font_family_1;
+}
+body {
+  margin: 0;
+  font-size: 100%;
+  background: #fff;
+  font-family: $font_family_1;
+  a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+  }
+}
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+input[type="button"] {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+input[type="submit"] {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+}
+h1 {
+  margin: 0;
+  font-family: $font_family_1;
+}
+h2 {
+  margin: 0;
+  font-family: $font_family_1;
+}
+h3 {
+  margin: 0;
+  font-family: $font_family_1;
+}
+h4 {
+  margin: 0;
+  font-family: $font_family_1;
+}
+h5 {
+  margin: 0;
+  font-family: $font_family_1;
+}
+h6 {
+  margin: 0;
+  font-family: $font_family_1;
+}
+p {
+  margin: 0;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.9;
+  color: $color_1;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+label {
+  margin: 0;
+}
