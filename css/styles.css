@@ -339,7 +339,7 @@ label {
 
 .content-wrapper {
   margin-top: 179px;
-  min-height: 800px; }
+  padding-bottom: 50px; }
   .content-wrapper .ads-banner {
     height: 400px;
     width: 100%;
@@ -386,31 +386,84 @@ label {
         .content-wrapper .ads-banner .ad-conent .button2:focus {
           background: #1accfd;
           color: #fff; }
-  .content-wrapper .our_products {
+  .content-wrapper .deals-section {
     padding-top: 50px; }
-    .content-wrapper .our_products h3.main_tittle {
-      color: #000;
-      font-size: 1.8em;
-      text-align: left;
-      margin-bottom: 50px;
-      position: relative;
-      padding-bottom: 20px; }
-    .content-wrapper .our_products .deals_container .product-card {
-      margin-right: 10px;
-      margin-right: 10px;
-      border: 1px solid gainsboro;
-      padding: 10px;
+    .content-wrapper .deals-section .main_tittle {
       display: flex;
-      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
-      justify-content: center; }
-      .content-wrapper .our_products .deals_container .product-card > div:first-child {
-        margin-bottom: 15px; }
-      .content-wrapper .our_products .deals_container .product-card ._productImage {
-        text-align: center; }
-        .content-wrapper .our_products .deals_container .product-card ._productImage img {
-          height: 75%; }
-      .content-wrapper .our_products .deals_container .product-card .item-info-product h4 a {
+      margin-bottom: 35px; }
+      .content-wrapper .deals-section .main_tittle h3 {
         color: #000;
-        font-size: 17px;
-        letter-spacing: 1px; }
+        font-size: 1.8em;
+        text-align: left; }
+      .content-wrapper .deals-section .main_tittle a {
+        margin-right: 15px;
+        padding: 8px;
+        border: 1px solid gainsboro;
+        font-size: 14px; }
+    .content-wrapper .deals-section .wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      width: 100%;
+      min-height: 150px;
+      flex-wrap: wrap; }
+      .content-wrapper .deals-section .wrapper > div {
+        width: 200px !important;
+        margin-right: 10px;
+        padding: 10px;
+        border: 1px solid gainsboro;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+      .content-wrapper .deals-section .wrapper ._product_item {
+        width: 100%; }
+        .content-wrapper .deals-section .wrapper ._product_item .thumb-item {
+          text-align: center; }
+          .content-wrapper .deals-section .wrapper ._product_item .thumb-item img {
+            height: 50%; }
+        .content-wrapper .deals-section .wrapper ._product_item .item-info-product {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          text-align: center; }
+          .content-wrapper .deals-section .wrapper ._product_item .item-info-product h4 {
+            color: #000;
+            font-size: 17px;
+            letter-spacing: 1px;
+            margin-bottom: 10px; }
+          .content-wrapper .deals-section .wrapper ._product_item .item-info-product span.item_price {
+            font-size: 18px;
+            color: #d60404;
+            margin-right: 10px; }
+        .content-wrapper .deals-section .wrapper ._product_item .snipcart-details {
+          text-align: center; }
+          .content-wrapper .deals-section .wrapper ._product_item .snipcart-details input.button {
+            font-size: 13px;
+            color: #fff;
+            background: #1accfd;
+            text-decoration: none;
+            position: relative;
+            border: none;
+            border-radius: 0;
+            width: 85%;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 13px;
+            outline: none;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 10px; }
+    .content-wrapper .deals-section .promo_Ads {
+      width: 100%;
+      height: 390px;
+      background-color: #1accfd;
+      background-repeat: no-repeat;
+      background-position: top;
+      background-size: cover;
+      background-image: url(../../images/promo_adds.jpg); }
