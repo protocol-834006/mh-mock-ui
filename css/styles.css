@@ -467,3 +467,32 @@ label {
       background-position: top;
       background-size: cover;
       background-image: url(../../images/promo_adds.jpg); }
+  .content-wrapper .future-section {
+    margin-top: 75px; }
+    .content-wrapper .future-section .main_tittle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 35px; }
+      .content-wrapper .future-section .main_tittle h3 {
+        color: #000;
+        font-size: 1.8em;
+        text-align: left; }
+      .content-wrapper .future-section .main_tittle a {
+        padding: 8px;
+        border: 1px solid gainsboro;
+        font-size: 14px; }
+    .content-wrapper .future-section .future_wrapper {
+      display: flex;
+      overflow-x: scroll;
+      flex-wrap: nowrap;
+      min-width: 200px;
+      width: 100%;
+      padding: 0px 15px 40px 15px; }
+      .content-wrapper .future-section .future_wrapper > div {
+        width: 375px;
+        height: 200px;
+        background-color: #858282;
+        margin-right: 10px; }
+      .content-wrapper .future-section .future_wrapper > div:last-child {
+        margin-right: 0; }
